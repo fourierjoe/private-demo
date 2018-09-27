@@ -29,7 +29,7 @@ public class Test {
 			FileOutputStream out = new FileOutputStream("target" + new Random().nextInt(10) + ".txt");
 			FileChannel outChannel = out.getChannel();
 			
-			outChannel.write(buffer);
+			outChannel.write(buffer); 
 		}
 	}
 	
